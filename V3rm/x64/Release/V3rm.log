@@ -1,0 +1,445 @@
+﻿  lapi.c
+  lauxlib.c
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lauxlib.c(544,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lauxlib.c(564,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lauxlib.c(574,1): warning C4996:  'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lbaselib.c
+  lcode.c
+  ldblib.c
+  ldebug.c
+  ldo.c
+  ldump.c
+  lfunc.c
+  lgc.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): message :  see declaration of 'freopen'
+  linit.c
+  liolib.c
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lgc.c(288,56): warning C4334:  '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(39,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(41,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(49,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(165,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(185,1): warning C4996:  'tmpfile': This function or variable may be unsafe. Consider using tmpfile_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(430): message :  see declaration of 'tmpfile'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(205,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(257,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(275,1): warning C4996:  'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1197): message :  see declaration of 'fscanf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\liolib.c(398,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  llex.c
+  lmathlib.c
+  lmem.c
+  loadlib.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loadlib.c(333,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loadlib.c(594,1): warning C4996:  'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lobject.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1191): message :  see declaration of 'getenv'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(145,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(193,13): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(196,15): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(198,13): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(204,13): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(207,15): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(210,15): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(211,13): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(184,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lobject.c(206,1): warning C4996:  'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lopcodes.c
+  loslib.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(266): message :  see declaration of 'strncat'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loslib.c(31,1): warning C4996:  'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(182): message :  see declaration of 'strerror'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loslib.c(60,1): warning C4996:  'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(440): message :  see declaration of 'tmpnam'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loslib.c(69,1): warning C4996:  'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1191): message :  see declaration of 'getenv'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loslib.c(129,1): warning C4996:  'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(496): message :  see declaration of 'gmtime'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\loslib.c(133,1): warning C4996:  'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lparser.c
+  Compiling...
+  lstate.c
+  lstring.c
+  lstrlib.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(506): message :  see declaration of 'localtime'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(740,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(750,9): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(777,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(782,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(787,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(792,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lstrlib.c(810,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ltable.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\ltable.c(323,5): warning C4334:  '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  ltablib.c
+  ltm.c
+  lundump.c
+  lvm.c
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\ltable.c(376,5): warning C4334:  '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Lua\lvm.c(53,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  lzio.c
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+  Main.cpp
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(569,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(575,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(590,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598,1): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(600,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(25,23): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(25,23): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(26,28): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(26,28): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(28,98): warning C4312:  'type cast': conversion from 'DWORD' to 'int (__cdecl *)(DWORD,int,int,int)' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(29,99): warning C4312:  'type cast': conversion from 'DWORD' to 'void *(__cdecl *)(DWORD,int)' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(33,27): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(39,36): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(39,15): warning C4244:  'initializing': conversion from '__int64' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(45,27): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(54,30): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(54,30): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(57,8): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(59,51): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(59,51): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(60,59): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(65,28): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(72,34): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(72,34): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(77,22): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(77,22): warning C4302:  'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(77,37): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(77,37): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(85,21): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(85,21): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(91,47): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(91,47): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(91,58): warning C4312:  'type cast': conversion from 'DWORD' to 'rLuaS_newlstr' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(111,50): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(111,50): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(111,61): warning C4312:  'type cast': conversion from 'DWORD' to 'rlua_index2adr' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(114,36): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(114,41): warning C4312:  'type cast': conversion from '_DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(115,24): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(120,29): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD **' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(123,24): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(127,35): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(128,15): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(129,21): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(130,27): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(137,25): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(141,43): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(141,86): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(141,111): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(142,38): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(142,43): warning C4312:  'type cast': conversion from '_DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(143,25): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(143,53): warning C4312:  'type cast': conversion from 'int' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(150,31): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(151,15): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(152,21): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(153,21): warning C4312:  'type cast': conversion from 'int' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(154,23): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(159,32): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(159,56): warning C4312:  'type cast': conversion from 'DWORD' to '_DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(163,49): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(163,49): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(163,61): warning C4312:  'type cast': conversion from 'DWORD' to 'rgetfield' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(165,53): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(165,53): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(165,66): warning C4312:  'type cast': conversion from 'DWORD' to 'rtolstring' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(167,41): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(167,41): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(167,53): warning C4312:  'type cast': conversion from 'DWORD' to 'toboolean' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(169,54): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(169,54): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(169,67): warning C4312:  'type cast': conversion from 'DWORD' to 'pushnumber' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(171,38): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(171,38): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(171,51): warning C4312:  'type cast': conversion from 'DWORD' to 'next2' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(173,40): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(173,40): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(173,52): warning C4312:  'type cast': conversion from 'DWORD' to 'rtonumber' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(175,62): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(175,62): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(175,75): warning C4312:  'type cast': conversion from 'DWORD' to 'rpushcclosure' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(177,59): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(177,59): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(177,72): warning C4312:  'type cast': conversion from 'DWORD' to 'rcreatetable' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(179,59): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(179,59): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(179,72): warning C4312:  'type cast': conversion from 'DWORD' to 'rnewuserdata' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(181,62): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(181,62): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(181,75): warning C4312:  'type cast': conversion from 'DWORD' to 'rgetmetatable' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(183,62): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(183,62): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(183,75): warning C4312:  'type cast': conversion from 'DWORD' to 'rsetmetatable' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(185,50): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(185,50): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(185,63): warning C4312:  'type cast': conversion from 'DWORD' to 'rsetfield' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(187,50): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(187,50): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(187,63): warning C4312:  'type cast': conversion from 'DWORD' to 'rsettable' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(189,28): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(189,28): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(189,40): warning C4312:  'type cast': conversion from 'DWORD' to 'rtype' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(191,52): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(191,52): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(191,64): warning C4312:  'type cast': conversion from 'DWORD' to 'rnewthread' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,56): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,56): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,68): warning C4312:  'type cast': conversion from 'DWORD' to 'byte *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,70): warning C4312:  'type cast': conversion from 'T' to 'rref' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,70): warning C4312:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,70): warning C4312:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,70): warning C4312:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(193,70): warning C4312:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(195,46): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(195,46): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(195,58): warning C4312:  'type cast': conversion from 'DWORD' to 'rrawgeti' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(197,61): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(197,61): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(197,74): warning C4312:  'type cast': conversion from 'DWORD' to 'rpushlight' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(206,5): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(207,20): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(213,5): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(214,20): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(226,34): error C3861:  '__readfsdword': identifier not found
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(228,30): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\r_lua.h(230,45): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(55,7): error C2039:  'Eip': is not a member of '_CONTEXT'
+D:\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(3837): message :  see declaration of '_CONTEXT'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(58,28): error C2039:  'Eip': is not a member of '_CONTEXT'
+D:\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(3837): message :  see declaration of '_CONTEXT'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(58,64): warning C4311:  'type cast': pointer truncation from 'int (__cdecl *)(DWORD)' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(58,64): warning C4302:  'type cast': truncation from 'int (__cdecl *)(DWORD)' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(62,7): error C2039:  'Eip': is not a member of '_CONTEXT'
+D:\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(3837): message :  see declaration of '_CONTEXT'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(65,28): error C2039:  'Eip': is not a member of '_CONTEXT'
+D:\Windows Kits\10\Include\10.0.17763.0\um\winnt.h(3837): message :  see declaration of '_CONTEXT'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(65,54): warning C4311:  'type cast': pointer truncation from 'int (__cdecl *)(DWORD)' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(65,54): warning C4302:  'type cast': truncation from 'int (__cdecl *)(DWORD)' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(76,44): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(76,44): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(76,55): warning C4312:  'type cast': conversion from 'DWORD' to 'Bridge::touserdata' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(80,47): warning C4244:  'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(82,37): warning C4244:  'argument': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(88,20): warning C4244:  'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(89,94): warning C4244:  'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(91,23): warning C4244:  'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(92,17): warning C4244:  'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(96,27): warning C4244:  'argument': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(98,17): warning C4244:  'argument': conversion from 'uintptr_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(103,14): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(103,14): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,32): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,32): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,38): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,38): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,44): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,44): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,50): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,50): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,56): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,56): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,62): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,62): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,68): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,68): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,74): warning C4838:  conversion from 'int' to 'const char' requires a narrowing conversion
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(104,74): warning C4309:  'initializing': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(106,7): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(280,75): warning C4312:  'type cast': conversion from 'int' to 'lua_State *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(297,11): warning C4244:  'initializing': conversion from 'lua_Number' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(306,31): warning C4002:  too many arguments for function-like macro invocation 'r_lua_tostring'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Bridge.h(346,11): warning C4244:  'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(33,49): warning C4311:  'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(33,49): warning C4302:  'type cast': truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(36,50): warning C4311:  'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(36,50): warning C4302:  'type cast': truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(47,45): warning C4244:  'argument': conversion from 'double' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(60,45): warning C4244:  'argument': conversion from 'double' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(102,10): warning C4477:  'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'std::string'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(209,1): warning C4996:  'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(208): message :  see declaration of 'fopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(294,19): warning C4244:  '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(295,28): warning C4267:  '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(303,20): warning C4244:  '=': conversion from '__int64' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(304,29): warning C4267:  '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(321,30): warning C4996:  'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message :  see declaration of 'strcpy'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(322,27): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(324,30): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(325,27): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(326,27): warning C4996:  'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): message :  see declaration of 'strcat'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(327,46): warning C4267:  'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(320,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(323,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): message :  see declaration of 'sprintf'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(351,1): warning C4996:  'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(338): message :  see declaration of 'strncpy'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(367,1): warning C4996:  'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): message :  see declaration of 'freopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(368,1): warning C4996:  'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(243): message :  see declaration of 'freopen'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(375,46): warning C4312:  'type cast': conversion from 'DWORD' to 'TValue **' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(392,49): warning C4311:  'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(392,49): warning C4302:  'type cast': truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(395,50): warning C4311:  'type cast': pointer truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(395,50): warning C4302:  'type cast': truncation from 'void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(413,37): warning C4311:  'type cast': pointer truncation from 'const void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(413,37): warning C4302:  'type cast': truncation from 'const void *' to 'int'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(463,40): warning C4312:  'type cast': conversion from 'int' to 'r_TValue **' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(566,33): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(567,34): warning C4312:  'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(568,20): warning C4312:  'type cast': conversion from 'DWORD' to 'char *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(568,22): warning C4309:  '=': truncation of constant value
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(568,51): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(568,65): warning C4311:  'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(568,65): warning C4302:  'type cast': truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(570,34): warning C4312:  'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(574,34): warning C4312:  'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(575,25): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(576,34): warning C4312:  'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(588,34): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(588,59): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(610,91): warning C4311:  'type cast': pointer truncation from 'LPVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(610,91): warning C4302:  'type cast': truncation from 'LPVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(611,84): warning C4311:  'type cast': pointer truncation from 'LPVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(611,84): warning C4302:  'type cast': truncation from 'LPVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(613,58): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(615,65): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(615,65): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(615,119): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(615,119): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(616,9): warning C4312:  'type cast': conversion from 'DWORD' to 'const char *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(621,69): warning C4244:  '+=': conversion from 'SIZE_T' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(627,30): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(627,30): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(630,30): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(630,30): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(632,18): warning C4311:  'type cast': pointer truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(632,18): warning C4302:  'type cast': truncation from 'HMODULE' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(636,2): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(749,31): warning C4244:  'return': conversion from 'SIZE_T' to 'unsigned int', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(754,2): error C4235:  nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(755,3): error C2065:  'pushad': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(756,3): error C2065:  'pushfd': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,3): error C2065:  'mov': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,7): error C2146:  syntax error: missing ';' before identifier 'eax'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,7): error C2065:  'eax': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,12): error C2065:  'fs': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,14): error C2143:  syntax error: missing ';' before ':'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(757,14): error C2059:  syntax error: ':'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(810,20): error C2041:  illegal digit '8' for base '8'
+  memory.cpp
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\Main.cpp(825,3): error C2065:  'popad': undeclared identifier
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(569,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(575,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(590,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598,1): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(600,1): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(17,44): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(19,28): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(25,37): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(25,16): warning C4244:  'initializing': conversion from '__int64' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(31,28): warning C4312:  'type cast': conversion from 'DWORD' to 'void *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(40,31): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(40,31): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(43,9): warning C4312:  'type cast': conversion from 'DWORD' to 'BYTE *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(45,52): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(45,52): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(46,60): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(51,29): warning C4312:  'type cast': conversion from 'DWORD' to 'DWORD *' of greater size
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(58,35): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(58,35): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(63,23): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(63,23): warning C4302:  'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(63,38): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(63,38): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(71,22): warning C4311:  'type cast': pointer truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\memory.cpp(71,22): warning C4302:  'type cast': truncation from 'PVOID' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(516,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598): message :  see reference to function template instantiation 'T Ret::unprotect<DWORD>(BYTE *)' being compiled
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598): message :         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598): message :         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598): message :             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(598): message :         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(516,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(519,15): error C2039:  'out_of_range': is not a member of 'std'
+D:\Visual studio Preview\VC\Tools\MSVC\14.21.27619\include\map(20): message :  see declaration of 'std'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(519,1): error C2061:  syntax error: identifier 'out_of_range'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(519,3): error C2310:  catch handlers must specify one type
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(521,19): warning C4244:  'initializing': conversion from '__int64' to 'DWORD', possible loss of data
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4311:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4311:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4311:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4311:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4302:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4302:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4302:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(524,1): warning C4302:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4311:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4311:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4311:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4311:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4302:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4302:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4302:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(528,1): warning C4302:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(531,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(531,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(531,1): warning C4311:  'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(531,1): warning C4302:  'type cast': truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(533,1): warning C4311:  'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(533,1): warning C4302:  'type cast': truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(535,1): warning C4311:  'type cast': pointer truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(535,1): warning C4302:  'type cast': truncation from 'void *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(535,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(535,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4311:  'type cast': pointer truncation from 'void *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4311:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4311:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4311:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4311:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4302:  'type cast': truncation from 'void *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4302:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4302:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4302:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(536,1): warning C4302:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4311:  'type cast': pointer truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4311:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4311:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4311:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4311:         ]
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4302:  'type cast': truncation from 'BYTE *' to 'T'
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4302:         with
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4302:         [
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4302:             T=DWORD
+C:\Users\Pot\Desktop\Exploit sources\Axon Dll\V3rm\retcheck.h(541,1): warning C4302:         ]

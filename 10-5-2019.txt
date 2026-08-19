@@ -1,0 +1,48 @@
+
+typedef void(__stdcall* rgetfield)(DWORD rL, int idx, const char *k);
+rgetfield r_lua_getfield = (rgetfield)unprotect(x(0x80F7F0));//update
+typedef char*(__fastcall* rtolstring)(DWORD rL, int idx, size_t *size);
+rtolstring r_lua_tolstring = (rtolstring)(unprotect(x(0x811C50)));
+typedef bool(__cdecl* toboolean)(DWORD rL, bool idx);
+toboolean r_lua_toboolean = (toboolean)(x(0x811B90));//update
+typedef double(__stdcall * pushnumber)(DWORD rL, double idx);
+pushnumber r_lua_pushnumber = (pushnumber)(unprotect(x(0x810AE0)));
+typedef DWORD(__cdecl* next2)(DWORD rL, int idx);
+next2 r_lua_next = (next2)(unprotect(x(0x810410)));
+typedef double(__stdcall* rtonumber)(DWORD, int);
+rtonumber r_lua_tonumber = (rtonumber)(x(0x811D90));
+typedef void(__fastcall* rpushcclosure)(DWORD rL, int fn, int non);
+rpushcclosure r_lua_pushcclosure = (rpushcclosure)(unprotect(x(0x8106E0)));
+typedef void(__cdecl *rcreatetable)(DWORD rL, int num, int fix);
+rcreatetable r_lua_createtable = (rcreatetable)(unprotect(x(0x80F480)));
+typedef void*(__cdecl *rnewuserdata)(DWORD rL, int idx);
+rnewuserdata r_lua_newuserdata = (rnewuserdata)(unprotect(x(0x810350))); //
+typedef void*(__cdecl *rgetmetatable)(DWORD rL, int idx);
+rgetmetatable r_lua_getmetatable = (rgetmetatable)(unprotect(x(0x80FAC0)));
+typedef void*(__cdecl *rsetmetatable)(DWORD rL, int idx);
+rsetmetatable r_lua_setmetatable = (rsetmetatable)(unprotect(x(0x810C30)));
+typedef void*(__fastcall *rsetfield)(DWORD rL, int idx);
+rsetfield r_lua_setfield = (rsetfield)(unprotect(x(0x8115C0)));
+typedef void*(__cdecl *rsettable)(DWORD rL, int);
+rsettable r_lua_settable = (rsettable)(unprotect(x(0x811980)));
+typedef DWORD(__cdecl *rtype)(DWORD, int);
+rtype r_lua_type = (rtype)(x(0x811F00));
+typedef DWORD(__cdecl *rnewthread)(DWORD);
+rnewthread r_lua_newthread = (rnewthread)unprotect(x(0x810260));
+typedef DWORD(__cdecl *rref)(DWORD, DWORD);
+rref r_luaL_ref = (rref)(Ret::unprotect<DWORD>((byte*)(x(0x80A310))));
+typedef void(__cdecl *rrawgeti)(DWORD, DWORD, DWORD);
+rrawgeti r_lua_rawgeti = (rrawgeti)unprotect(x(0x810EE0));
+typedef void(__cdecl *rpushlight)(DWORD, void*);
+rpushlight r_lua_pushlightuserdata = (rpushlight)(unprotect(x(0x810950)));
+
+typedef r_TValue*(__stdcall*rlua_index2adr)(int lst, int idx);
+rlua_index2adr r_lua_index2adr = (rlua_index2adr)x(0x8068D0);
+
+typedef int(__cdecl *rLuaS_newlstr)(int RL, const char *str, size_t l);
+rLuaS_newlstr r_luaS_newlstr = (rLuaS_newlstr)x(0x80AD80);
+
+DWORD ADDRESS_PCALL = x(0x810590);
+DWORD ADDRESS_TOUSERDATA = x(0x811ED0);
+
+0x80FCF0
