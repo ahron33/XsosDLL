@@ -1,72 +1,12 @@
-XsosDLL (Axon) ⚡
-
-XsosDLL (Axon) is a high-performance, native C++ dynamic-link library designed for low-level memory manipulation, process interaction, and execution bridging between external user interfaces (such as C# WinForms applications) and target process environments.
-
-🔑 Key Features
-
-Native Performance: Built entirely in modern C++ with direct Win32 API interactions for minimal runtime overhead.
-
-Non-Blocking Execution: Spawns asynchronous worker threads upon attachment (DLL_PROCESS_ATTACH) to preserve target application engine stability.
-
-Inter-Process Communication (IPC): Native support for named pipes and shared memory mapping for smooth data transfer between UI launchers and the core library.
-
-Memory Management & Hooking: Uses low-level virtual memory protections (VirtualProtect) for safe memory page modifications and execution flow hooking.
-
-🛠️ Tech Stack & Requirements
-
-Primary Language: C++ (Native)
-
-API / Libraries: Windows SDK (Windows.h, Psapi.h), C++ Standard Template Library (STL)
-
-Target OS: Windows 10 / 11 (x86 & x64 architectures)
-
-IDE / Toolchain: Microsoft Visual Studio 2019+ (MSVC compiler target)
-
-📁 Repository Structure
-
-XsosDLL/
-├── Axon.sln              # Visual Studio Solution Configuration
-├── Axon.vcxproj          # C++ Build Configuration
-├── Axon.vcxproj.filters  # Source File Organization
-├── Axon.cpp / Main.cpp   # Core Logic & DllMain Entry Point
-└── Axon.h                # Header Definitions & Directives
-
-
-🚀 Building & Setup
-
-Prerequisites
-
-Ensure you have the following installed:
-
-Visual Studio 2019 or later
-
-Desktop development with C++ workload enabled
-
-Latest Windows 10/11 SDK
-
-Build Steps
-
-Clone the Repository:
-
-git clone https://github.com/your-username/XsosDLL.git
+⚡ XsosDLL (Axon) ⚡A high-performance, native C++ dynamic-link library for low-level process memory interaction, execution hooking, and IPC bridging.📌 OverviewXsosDLL (Axon) acts as a lightweight, low-level engine bridge. Designed for seamless execution alongside modern Windows applications and external launchers (such as C# WinForms interfaces), it facilitates asynchronous memory operations, safe execution hooking, and fast inter-process communication without causing engine stalls.🔑 Core Features🛠️ Tech StackComponentTechnologyLanguageNative C++ (ISO C++17 Standard)APIsWindows SDK (Windows.h, Psapi.h), C++ STLTarget PlatformsWindows 10 / 11 (x86 & x64)ToolchainMicrosoft Visual Studio 2019+ (MSVC Toolset)📁 Repository LayoutXsosDLL/
+├── 📄 Axon.sln              # Visual Studio Solution Configuration
+├── 📄 Axon.vcxproj          # C++ Build Project Rules
+├── 📄 Axon.vcxproj.filters  # Visual Studio Source Filtering
+├── 📜 Axon.cpp / Main.cpp   # Core DLL Logic & DllMain Entry Point
+└── 📜 Axon.h                # Header Exports & Function Prototypes
+🚀 Building & Setup📋 PrerequisitesEnsure your environment includes:Visual Studio 2019 or laterDesktop development with C++ workload installedWindows 10/11 SDK🔨 Compilation StepsClone Repositorygit clone https://github.com/your-username/XsosDLL.git
 cd XsosDLL
-
-
-Open Solution:
-Launch Axon.sln inside Visual Studio.
-
-Configure Build Target:
-Set your build profile to Release (or Debug) and choose the target architecture (x86 or x64).
-
-Compile:
-Press Ctrl + Shift + B (or select Build > Build Solution). Output binaries (.dll, .pdb) will be generated under the Release/ or Debug/ folder.
-
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
-
-📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Disclaimer: This project is provided exclusively for educational, software architecture analysis, and research purposes.
+Open Solution
+Double-click Axon.sln to load the project into Visual Studio.Select Profile
+Set build mode to Release (or Debug) and select target architecture (x86 or x64).Compile Output
+Press Ctrl + Shift + B to compile. Built .dll artifacts will output to the project Release/ folder.⚠️ Disclaimer[!IMPORTANT]This software is intended strictly for educational, technical research, and software architecture analysis purposes.Distributed under the MIT License.
