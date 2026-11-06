@@ -43,3 +43,30 @@ Visual Studio 2019 or later
 Desktop development with C++ workload enabled
 
 Latest Windows 10/11 SDK
+
+Build Steps
+
+Clone the Repository:
+
+git clone https://github.com/your-username/XsosDLL.git
+cd XsosDLL
+
+
+Open Solution:
+Launch Axon.sln inside Visual Studio.
+
+Configure Build Target:
+Set your build profile to Release (or Debug) and choose the target architecture (x86 or x64) based on your target process.
+
+Compile:
+Press Ctrl + Shift + B (or select Build > Build Solution). Output binaries (.dll, .pdb) will be generated under the Release/ or Debug/ folder.
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
+
+📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Disclaimer: This project is provided exclusively for educational, software architecture analysis, and research purposes.
