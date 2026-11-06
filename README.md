@@ -1,31 +1,45 @@
-Markdown
-# XsosDLL Technical Documentation & Architecture Overview
+XsosDLL (Axon) ⚡
 
-## Overview
+XsosDLL (Axon) is a high-performance, native C++ dynamic-link library designed for low-level memory manipulation, process interaction, and execution bridging between external user interfaces (such as C# WinForms applications) and target process environments.
 
-**XsosDLL** (Axon) is a native C++ dynamic-link library designed as a low-level interface for Lua script execution and game process memory manipulation. The project provides a bridge between an external user interface (such as a C# WinForms launcher) and the target game process by handling DLL injection, memory allocation, and Lua state interaction.
+🔑 Key Features
 
----
+Native Performance: Built entirely in modern C++ with direct Win32 API interactions for minimal runtime overhead.
 
-## Technical Specifications
+Non-Blocking Execution: Spawns asynchronous worker threads upon attachment (DLL_PROCESS_ATTACH) to preserve target application engine stability.
 
-* **Language:** C++ (Native) / C# (Wrapper UI)
-* **Target Architecture:** x86 / x64 (Win32 API)
-* **IDE / Toolchain:** Microsoft Visual Studio (MSVC)
-* **Dependencies:**
-  * Windows SDK (`Windows.h`, `Psapi.h`)
-  * Target Lua C API / Internal Game Function Offsets
-  * Standard Template Library (STL)
+Inter-Process Communication (IPC): Native support for named pipes and shared memory mapping for smooth data transfer between UI launchers and the core library.
 
----
+Memory Management & Hooking: Uses low-level virtual memory protections (VirtualProtect) for safe memory page modifications and execution flow hooking.
 
-## File & Repository Structure
+🛠️ Tech Stack & Requirements
 
-```text
+Primary Language: C++ (Native)
+
+API / Libraries: Windows SDK (Windows.h, Psapi.h), C++ Standard Template Library (STL)
+
+Target OS: Windows 10 / 11 (x86 & x64 architectures)
+
+IDE / Toolchain: Microsoft Visual Studio 2019+ (MSVC compiler target)
+
+📁 Repository Structure
+
 XsosDLL/
 ├── Axon.sln              # Visual Studio Solution Configuration
-├── Axon.vcxproj          # C++ Project Build Configuration
-├── Axon.vcxproj.filters  # Visual Studio Filters for Source Organization
-├── Axon.cpp / Main.cpp   # DLL Entry Point (DllMain) & Core Logic
-├── Axon.h                # Header Exports, Type Definitions, Function Offsets
-└── Debug / Release/      # Build Output Directories (.dll, .lib, .pdb)
+├── Axon.vcxproj          # C++ Build Configuration
+├── Axon.vcxproj.filters  # Source File Organization
+├── Axon.cpp / Main.cpp   # Core Logic & DllMain Entry Point
+└── Axon.h                # Header Definitions & Directives
+
+
+🚀 Building & Setup
+
+Prerequisites
+
+Ensure you have the following installed:
+
+Visual Studio 2019 or later
+
+Desktop development with C++ workload enabled
+
+Latest Windows 10/11 SDK
