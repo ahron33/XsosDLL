@@ -56,7 +56,7 @@ Open Solution:
 Launch Axon.sln inside Visual Studio.
 
 Configure Build Target:
-Set your build profile to Release (or Debug) and choose the target architecture (x86 or x64) based on your target process.
+Set your build profile to Release (or Debug) and choose the target architecture (x86 or x64).
 
 Compile:
 Press Ctrl + Shift + B (or select Build > Build Solution). Output binaries (.dll, .pdb) will be generated under the Release/ or Debug/ folder.
